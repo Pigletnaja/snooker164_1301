@@ -184,7 +184,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57994772}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f8d5f137f70b52e4188d608fb04d06f9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -296,7 +296,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91227980}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f8d5f137f70b52e4188d608fb04d06f9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -704,7 +704,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5654177984292127810, guid: dd87e1151fd115d488a812480d747e87, type: 3}
       propertyPath: m_Name
-      value: Ball
+      value: CueBall
       objectReference: {fileID: 0}
     - target: {fileID: 6805726444608219956, guid: dd87e1151fd115d488a812480d747e87, type: 3}
       propertyPath: m_LocalPosition.x
@@ -781,7 +781,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806185620}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c48443aabbf95aa4bab95a8faeb89a22, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -943,7 +943,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892421111}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f8d5f137f70b52e4188d608fb04d06f9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1055,7 +1055,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951032500}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f8d5f137f70b52e4188d608fb04d06f9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1203,6 +1203,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 12940196}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1380379189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5654177984292127810, guid: dd87e1151fd115d488a812480d747e87, type: 3}
+  m_PrefabInstance: {fileID: 710160645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1424514830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +1265,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438319883}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f8d5f137f70b52e4188d608fb04d06f9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1451,7 +1456,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633684810}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f8d5f137f70b52e4188d608fb04d06f9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1739,6 +1744,7 @@ MonoBehaviour:
   - {fileID: 1424514830}
   - {fileID: 1710955026}
   ballPrefab: {fileID: 5654177984292127810, guid: dd87e1151fd115d488a812480d747e87, type: 3}
+  cueBall: {fileID: 1380379189}
 --- !u!4 &2113634372
 Transform:
   m_ObjectHideFlags: 0
