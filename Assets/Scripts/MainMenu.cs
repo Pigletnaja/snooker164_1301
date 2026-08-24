@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject adjustPanel;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -17,10 +19,23 @@ public class MainMenu : MonoBehaviour
     }
     public void StartNewGame()
     {
+        Settings.fromSave = false;
         SceneManager.LoadScene("Loading");
     }
+
+    public void LoadSaveGame()
+    {
+        Settings.fromSave = true;
+        SceneManager.LoadScene("Loading");
+    }
+
+
     public void ExitGame()
     {
         Application.Quit();
+    }
+    public void ShowHideAdjustPanel(bool flag)
+    {
+        adjustPanel.SetActive(flag);
     }
 }
