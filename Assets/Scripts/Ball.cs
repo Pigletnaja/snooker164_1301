@@ -59,6 +59,7 @@ public class Ball  : MonoBehaviour,IPointerClickHandler
                 break;
             case BallColor.Red:
                 point = 1;
+                rd.material.color = Color.red;
                 break;
             case BallColor.Yellow:
                 point = 2;
@@ -70,7 +71,7 @@ public class Ball  : MonoBehaviour,IPointerClickHandler
                 break;
             case BallColor.Brown:
                 point = 4;
-                rd.material.color = Color.brown;
+                rd.material.color = new Color(0.4f, 0.2f, 0.0f);
                 break;
             case BallColor.Blue:
                 point = 5;
